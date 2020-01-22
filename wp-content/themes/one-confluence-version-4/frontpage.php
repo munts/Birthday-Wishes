@@ -135,7 +135,7 @@ if (function_exists('one_get_option')) {
             <img src="<?= $imageTwo; ?>" class="img-responsive" style="width:90%;">
         </div>
         <div class="col-sm-5 col-md-4 col-md-pull-1 col-lg-2 col-lg-push-2 text-overlay-right">
-            <div class="featured-content copy"><h2><?= $topTitleTwo; ?></h2><?= $descriptionTwo; ?></div>
+            <div class="featured-content copy"><h1><?= $topTitleTwo; ?></h1><h2><?= $bottomTitleOne; ?></h2><?= $descriptionTwo; ?></div>
         </div>
     </section>
 
