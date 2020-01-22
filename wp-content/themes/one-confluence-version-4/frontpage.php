@@ -124,13 +124,13 @@ if (function_exists('one_get_option')) {
 
 <div id="main-container" class="container-fluid">
 
-    <section id="passion" class="row" data-title="<?= $topTitleOne; ?>">
+    <section id="the-bean" class="row" data-title="<?= $topTitleOne; ?>">
             <div class="col-xs-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center" style="padding:0;">
                 <img style="width:80%;" class="img-responsive" id="floorplan" src="<?= $imageOne; ?>">
             </div>
     </section>
 
-    <section id="art" class="row" data-title="<?= $topTitleTwo; ?>" data-target="art">
+    <section id="why" class="row" data-title="<?= $topTitleTwo; ?>" data-target="why">
         <div class="col-sm-7 col-md-8 col-md-push-1 col-lg-6 col-lg-push-2 clearfix">
             <img src="<?= $imageTwo; ?>" class="img-responsive" style="width:90%;">
         </div>
@@ -139,7 +139,7 @@ if (function_exists('one_get_option')) {
         </div>
     </section>
 
-     <section id="science" class="row" data-title="<?= $topTitleThree; ?>">
+     <section id="memories" class="row" data-title="<?= $topTitleThree; ?>">
         <div class="col-sm-5 col-md-4 col-lg-2 col-lg-push-3 text-overlay-left clearfix">
             <div class="featured-content-left copy"><h2><?= $topTitleThree; ?></h2><?= $descriptionThree; ?></div>
         </div>
@@ -149,7 +149,7 @@ if (function_exists('one_get_option')) {
 
     </section>
 
-    <section id="creative" class="row" data-title="<?= $topTitleFour; ?>">
+    <section id="love" class="row" data-title="<?= $topTitleFour; ?>">
         <div class="col-sm-8 col-sm-push-1 col-md-8 col-md-push-2 col-lg-6 col-lg-push-3 clearfix apples">
             <img src="<?= $imageFour; ?>" class="img-responsive" style="width:86%;margin-left:80px;">
         </div>
@@ -158,20 +158,10 @@ if (function_exists('one_get_option')) {
         </div>
     </section>
 
-<?php
-/*$team2 = get_post_meta( $team_id, 'pks_team_group', true ); // this particular instance spits out 32 which is entered into a field in wp-admin
-$team = (is_array($team2) && is_array(current($team2))) ? current($team2) : array();
-if( count($team2) > 1 || is_array($team) && array_key_exists('name', $team) && !empty($team['name']) ||
-    array_key_exists('photo', $team) && !empty($team['photo']) )
-    ||
-    array_key_exists('title', $team) && !empty($team['title']) ||
-    array_key_exists('bio', $team) && !empty($team['bio']) )
-{ */ ?>
-
     <?php
     if ($teamLayout === 'fluid') { get_template_part('templates/team-fluid'); }
     else { ?>
-        <section id="team" class="row" data-title="<?= $dataTitleTeam; ?>">
+        <section id="gallery" class="row" data-title="<?= $dataTitleTeam; ?>">
             <div class="col-lg-10 col-lg-push-1 team_div" style="background-image: url('<?= $team_bg; ?>');">
                 <div class="row">
                     <div class="col-xs-8 col-xs-push-2 col-sm-8 col-sm-push-2">
@@ -212,7 +202,7 @@ if( count($team2) > 1 || is_array($team) && array_key_exists('name', $team) && !
 
 
 
-    <section id="solutions" class="row" data-title="<?= $topTitleFive; ?>">
+    <section id="upload" class="row" data-title="<?= $topTitleFive; ?>">
         <div class="col-sm-5 col-md-4 col-lg-2 col-lg-push-3 text-overlay-left clearfix">
           <div class="featured-content-left"><h2><?= $topTitleFive; ?></h2><?= $descriptionFive; ?></div>
         </div>
@@ -296,37 +286,6 @@ if( count($team2) > 1 || is_array($team) && array_key_exists('name', $team) && !
                     </div>
                     <div class="col-xs-12 footer-address">
                         <a href="tel:<?= $footerPhone; ?>"><span class="glyphicon glyphicon-phone"></span> <?= $footerPhone; ?></a> | <span class="glyphicon glyphicon-map-marker"></span> <?=$address_line1; ?> | <?=$address_line2; ?> | <span class="glyphicon glyphicon-envelope"></span> <?= $footerEmail; ?>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-4 col-sm-push-4">
-                        <div class="social">
-                            <ul>
-                            <?php
-                            if (isset($instagram) && !empty($instagram)) {
-                                echo '<li><a href="'.$instagram.'" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>';
-                            };
-                            if (isset($facebook) && !empty($facebook)) {
-                                echo '<li><a href="'.$facebook.'" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>';
-                            };
-                            if (isset($twitter) && !empty($twitter)) {
-                                echo '<li><a href="'.$twitter.'" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>';
-                            };
-                            if (isset($gplus) && !empty($gplus)) {
-                                echo '<li><a href="'.$gplus.'" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>';
-                            };
-                            if (isset($linkedin) && !empty($linkedin)) {
-                                echo '<li><a href="'.$linkedin.'" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>';
-                            };
-                            if (isset($pinterest) && !empty($pinterest)) {
-                                echo '<li><a href="'.$pinterest.'" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>';
-                            };
-                            if (isset($wildcardUrl) && !empty($wildcardUrl)) {
-                                echo '<li><a href="'.$wildcardUrl.'" target="_blank"><i class="<?= $wildcardIcon; ?>" aria-hidden="true"></i></a></li>';
-                            };
-                            ?>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>
