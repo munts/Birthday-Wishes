@@ -11,7 +11,7 @@
 <html <?php language_attributes(); ?> class="no-js" style="">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Plumb Kendall Solutions - Strategic Partnerships, Project Management, Custom Builder</title>
+    <title>Warm Birthday Wishes for the Bean</title>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <?php wp_head();
@@ -22,11 +22,12 @@
     if (function_exists('one_get_option')) {
         $site_logo = one_get_option('logo');
         $header_bg_color = one_get_option('header_bg_color');
+        $header_bg_image = one_get_option('header_bg_image');
     }
     ?>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="50" <?php body_class(); ?> >
-    <section id="purpose" data-title="Purpose" style="background-color: <?= $header_bg_color; ?>">
+    <section id="purpose" data-title="Purpose" style="background-image:url('<?= $header_bg_image; ?>'); background-color: <?= $header_bg_color; ?>">
         <div class="container purpose">
             <div class="row">
                 <div class="col-xs-6 col-xs-push-3 col-sm-4 col-sm-push-4">

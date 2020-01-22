@@ -299,6 +299,18 @@ class one_Admin {
                             <p>Enjoy this theme. - ST</p>',
         ) );
 
+        // file uploader for the header background
+        $cmb->add_field( array(
+            'name'    => 'Site Header Background',
+            'desc'    => 'Upload an image or enter an URL.',
+            'id'      => 'header_bg_image',
+            'type'    => 'file',
+            // Optionally hide the text input for the url:
+            'options' => array(
+                'url' => false,
+            ),
+        ) );
+
         //These footer widgets are no longer being used.  Keeping them here in case we go back to them.
         /*$cmb->add_field( array(
             'name'    => __( 'Left Footer WYSIWYG', 'cmb2' ),
