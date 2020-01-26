@@ -2,7 +2,7 @@
 /**
  * Include and setup custom metaboxes and fields. (make sure you copy this file to outside the CMB2 directory)
  *
- * Be sure to replace all instances of 'yourprefix_' with your project's prefix.
+ * Be sure to replace all instances of 'cws_' with your project's prefix.
  * http://nacin.com/2010/05/11/in-wordpress-prefix-everything/
  *
  * @category YourThemeOrPlugin

@@ -6,7 +6,6 @@
 require_once( dirname(__FILE__) . '/lib/one-site-options.php');
 require_once( dirname(__FILE__) . '/lib/one-frontpage-options.php');
 require_once( dirname(__FILE__) . '/lib/team-functions.php');
-//require_once( dirname(__FILE__) . '/lib/aq_resizer.php');  //May want to use this so that in the case that someone uploads an image that is too large that it resizes for optimization...
 require_once( dirname(__FILE__) . '/lib/wp_bootstrap_navwalker.php');
 
 

@@ -24,6 +24,7 @@ node_modules/
 *.sql
 *.sqlite
 *.txt
+*.idea
 
 # ignore these specific files
 index.php
