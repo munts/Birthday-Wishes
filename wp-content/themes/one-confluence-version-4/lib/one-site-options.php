@@ -123,35 +123,6 @@ class one_Admin {
 
         // Set our CMB2 fields
 
-        $cmb->add_field( array(
-            'name' => __( 'Phone Number:', 'one' ),
-            'desc' => __( 'This is the number that will get used/displayed in the footer. NOTE: if you enter it like, 867-5309, that is how it will get displayed.', 'one' ),
-            'id'   => 'phone_text',
-            'type' => 'text',
-            'after' => 'examples: (970)-376-####, 970-376-####, 970.376.####,',
-        ) );
-
-        $cmb->add_field( array(
-            'name' => __( 'Address Line 1:', 'one' ),
-            'desc' => __( 'PO Box or physical address (Physical address is better for SEO)', 'one' ),
-            'id'   => 'address_line1',
-            'type' => 'text',
-        ) );
-
-        $cmb->add_field( array(
-            'name' => __( 'Address Line 2:', 'one' ),
-            'desc' => __( 'City, State, and zip code', 'one' ),
-            'id'   => 'address_line2',
-            'type' => 'text',
-        ) );
-
-        $cmb->add_field( array(
-            'name'    => 'Email Address',
-            'desc'    => 'This is the email address that you want to display in the footer',
-            'id'   => 'foot_email',
-            'type' => 'text_email',
-        ) );
-
         // file uploader for the header logo
         $cmb->add_field( array(
             'name'    => 'Site Header Logo',
@@ -193,7 +164,7 @@ class one_Admin {
 
         $cmb->add_field( array(
             'name' => __( 'Title Block One', 'one' ),
-            'desc' => __( 'Ex: Project Management or something, but remember it needs to one-two words.', 'one' ),
+            'desc' => __( 'Ex: Happy... but remember it needs to one-two words.', 'one' ),
             'id'   => 'one_titleblock_one',
             'type' => 'text',
             'before_row' => '<p style="padding-bottom:15px;font-weight:bold;font-size:1.25em;">These are the three subjects or areas of expertise that you want to promote in the left Title Block</p>'
@@ -201,14 +172,14 @@ class one_Admin {
 
         $cmb->add_field( array(
             'name' => __( 'Title Block Two', 'one' ),
-            'desc' => __( 'Ex: Consulting', 'one' ),
+            'desc' => __( 'Ex: Remember', 'one' ),
             'id'   => 'one_titleblock_two',
             'type' => 'text',
         ) );
 
         $cmb->add_field( array(
             'name' => __( 'Title Block Three', 'one' ),
-            'desc' => __( 'Ex: Custom Builder, General Contractor...', 'one' ),
+            'desc' => __( 'Ex: Love', 'one' ),
             'id'   => 'one_titleblock_three',
             'type' => 'text',
         ) );
@@ -229,7 +200,7 @@ class one_Admin {
 
         //Social Media Urls - These aren't currently in use.
 
-        $cmb->add_field( array(
+        /*$cmb->add_field( array(
             'name' => __( 'Facebook URL', 'one' ),
             'desc' => __( 'Facebook Page url', 'one' ),
             'id'   => 'one_facebook_url',
@@ -286,6 +257,7 @@ class one_Admin {
             'type' => 'text',
             'after_row' => '<p style="padding-bottom:15px;">If you can find your icon at <a href="http://fontawesome.io/icons/" target="_blank">http://fontawesome.io/icons/</a> then copy the icon code here.  The icon code will look like: fa fa-bandcamp</p>'
         ) );
+        */
 
         $cmb->add_field( array(
             'name'    => 'Header Background Color Picker',

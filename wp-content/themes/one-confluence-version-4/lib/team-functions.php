@@ -85,26 +85,8 @@ function pks_team_register_repeatable_group_field_metabox() {
      */
 
     $cmb_group->add_group_field( $group_field_id, array(
-    	'name' => __( 'Team Image', 'cmb2' ),
+    	'name' => __( 'Gallery Image', 'cmb2' ),
     	'id'   => 'image',
     	'type' => 'file',
-    ) );
-
-    $cmb_group->add_group_field( $group_field_id, array(
-        'name' => __( 'Team Name', 'cmb2' ),
-        'id'   => 'name',
-        'type' => 'text',
-    ) );
-
-    $cmb_group->add_group_field( $group_field_id, array(
-        'name' => __( 'Team Title', 'cmb2' ),
-        'id'   => 'title',
-        'type' => 'text',
-    ) );
-
-    $cmb_group->add_group_field( $group_field_id, array(
-        'name' => __( 'Team Bio', 'cmb2' ),
-        'id'   => 'bio',
-        'type' => 'textarea',
     ) );
 }
