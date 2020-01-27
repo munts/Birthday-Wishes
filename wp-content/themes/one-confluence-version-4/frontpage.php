@@ -140,7 +140,7 @@ if (function_exists('one_get_option')) {
     </section>
 
      <section id="memories" class="row" data-title="<?= $topTitleThree; ?>">
-        <div class="col-xs-12 clearfix">
+        <div class="col-xs-12 col-md-10 col-md-push-1 col-lg-8 col-lg-push 2 clearfix">
             <div class="copy">
                 <h2><?= $topTitleThree; ?></h2>
                 <?= $descriptionThree; ?>
