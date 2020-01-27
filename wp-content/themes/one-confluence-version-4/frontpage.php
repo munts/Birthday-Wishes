@@ -75,14 +75,6 @@ $footer_logo = '';
 $address_line1 = '';
 $address_line2 = '';
 //Social Media Icons
-$instagram = '';
-$linkedin = '';
-$pinterest = '';
-$facebook = '';
-$gplus = '';
-$twitter = '';
-$wildcardIcon = '';
-$wildcardUrl = '';
 // Title block Variables
 // left container
 $titleBlockOne = '';
@@ -139,11 +131,11 @@ if (function_exists('one_get_option')) {
         </div>
     </section>
 
-     <section id="memories" class="row" data-title="<?= $topTitleThree; ?>">
+     <section id="memories" class="row" data-title="<?= $topTitleThree; ?>" style="margin-top:60px;">
         <div class="col-xs-12 col-md-10 col-md-push-1 col-lg-8 col-lg-push 2 clearfix">
             <div class="copy">
                 <h2><?= $topTitleThree; ?></h2>
-                <?= $descriptionThree; ?>
+                <?php echo oneConfluence_get_wysiwyg_output($descriptionThree); ?>
             </div>
         </div>
 
