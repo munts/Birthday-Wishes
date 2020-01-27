@@ -141,10 +141,10 @@ if (function_exists('one_get_option')) {
 
      <section id="memories" class="row" data-title="<?= $topTitleThree; ?>">
         <div class="col-xs-12 clearfix">
-            <div class="featured-content-left copy">
-            <h2><?= $topTitleThree; ?></h2>
-            <?= $descriptionThree; ?>
-        </div>
+            <div class="copy">
+                <h2><?= $topTitleThree; ?></h2>
+                <?= $descriptionThree; ?>
+            </div>
         </div>
 
     </section>
