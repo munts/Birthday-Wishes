@@ -140,11 +140,11 @@ if (function_exists('one_get_option')) {
     </section>
 
      <section id="memories" class="row" data-title="<?= $topTitleThree; ?>">
-        <div class="col-sm-5 col-md-4 col-lg-2 col-lg-push-3 text-overlay-left clearfix">
-            <div class="featured-content-left copy"><h2><?= $topTitleThree; ?></h2><?= $descriptionThree; ?></div>
+        <div class="col-xs-12 clearfix">
+            <div class="featured-content-left copy">
+            <h2><?= $topTitleThree; ?></h2>
+            <?= $descriptionThree; ?>
         </div>
-        <div class="col-sm-7 col-md-7 col-lg-5 col-lg-push-4">
-            <img src="<?= $imageThree; ?>" class="img-responsive" style="width:85%;">
         </div>
 
     </section>
