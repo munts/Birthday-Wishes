@@ -135,7 +135,7 @@ if (function_exists('one_get_option')) {
         <div class="col-xs-12 col-md-10 col-md-push-1 col-lg-8 col-lg-push 2 clearfix">
             <div class="copy">
                 <h2><?= $topTitleThree; ?></h2>
-                <?php echo oneConfluence_get_wysiwyg_output($descriptionThree); ?>
+                <?php gravity_form(1, true, true, false, '', true, 12); ?>
             </div>
         </div>
 
