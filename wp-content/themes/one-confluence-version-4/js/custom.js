@@ -79,7 +79,7 @@
     // Carousels
 
     $("#team .owl-carousel").owlCarousel({
-        items: 1,
+        items: 3,
         margin: 0,
         loop: true,
         dots: false,
