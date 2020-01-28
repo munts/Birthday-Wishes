@@ -217,7 +217,7 @@ if (function_exists('one_get_option')) {
                         <div class="buildingwith">
                             <div id="tagger" class="tagline">
                                 <div class="building-with"><?= $middleContainerTopTitle; ?></div>
-                                <div class="js-tag">Team</div></div>
+                                <div class="js-tag">Love</div></div>
                             <div class="since1994"><strong><?= $middleContainerBottomTitle; ?></strong></div>
                         </div>
                     </div>
