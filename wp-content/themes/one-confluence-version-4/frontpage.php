@@ -132,7 +132,7 @@ if (function_exists('one_get_option')) {
     </section>
 
      <section id="memories" class="row" data-title="<?= $topTitleThree; ?>" style="margin-top:60px;">
-        <div class="col-xs-12 col-md-10 col-md-push-1 col-lg-8 col-lg-push 2 clearfix">
+        <div class="col-xs-12 col-md-10 col-md-push-2 col-lg-8 col-lg-push 2 clearfix">
             <div class="copy">
                 <h2><?= $topTitleThree; ?></h2>
                 <?php gravity_form(1, true, true, false, '', true, 12); ?>
