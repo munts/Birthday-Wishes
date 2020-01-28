@@ -276,9 +276,6 @@ if (function_exists('one_get_option')) {
                     <div class="col-xs-6 col-xs-push-3 col-sm-4 col-sm-push-4 col-md-2 col-md-push-5 col-lg-3 col-lg-push-4 footer-logo">
                         <img src="<?= $footer_logo; ?>" class="img-responsive">
                     </div>
-                    <div class="col-xs-12 footer-address">
-                        <a href="tel:<?= $footerPhone; ?>"><span class="glyphicon glyphicon-phone"></span> <?= $footerPhone; ?></a> | <span class="glyphicon glyphicon-map-marker"></span> <?=$address_line1; ?> | <?=$address_line2; ?> | <span class="glyphicon glyphicon-envelope"></span> <?= $footerEmail; ?>
-                    </div>
                 </div>
             </div>
     </section>
