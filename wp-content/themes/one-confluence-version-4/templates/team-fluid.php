@@ -10,8 +10,8 @@ $dataTitleTeam = get_post_meta($post->ID, '_one_front_team_title', true);
 $team_bg = get_post_meta($post->ID, '_one_front_team_background_image', true);
 ?>
 
-<section id="team" class="row" data-title="<?= $dataTitleTeam; ?>">
-    <div class="col-xs-12 team_div" style="background-image: url('<?= $team_bg; ?>');">
+<section id="team" class="row" data-title="<?= $dataTitleTeam; ?>" style="background-image: url('<?= $team_bg; ?>');">
+    <div class="col-xs-12 team_div">
         <div class="row">
             <div class="col-xs-10 col-xs-push-1">
                 <div class="owl-carousel owl-theme">
@@ -26,7 +26,7 @@ $team_bg = get_post_meta($post->ID, '_one_front_team_background_image', true);
                             ));
                         } ?>
                         <div class="team-member">
-                            <div class="col-xs-12 col-sm-4 team-photo"><?= $img; ?></div>
+                            <div class="col-xs-12 col-sm-10 team-photo"><?= $img; ?></div>
                         </div>
                     <?php } // END foreach ?>
                 </div>
