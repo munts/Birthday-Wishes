@@ -43,8 +43,8 @@ $team_bg = get_post_meta($post->ID, '_one_front_team_background_image', true);
                             </div>
                         </div>
                     <?php } // END foreach ?>
-</div>
-</div>
-</div>
-</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
