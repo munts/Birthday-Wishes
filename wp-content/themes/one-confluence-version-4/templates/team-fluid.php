@@ -26,7 +26,7 @@ $team_bg = get_post_meta($post->ID, '_one_front_team_background_image', true);
                             ));
                         } ?>
                         <div class="team-member">
-                            <div class="col-xs-12 col-sm-10 team-photo"><?= $img; ?></div>
+                            <div class="col-xs-12 col-sm-10 col-sm-push-1 team-photo"><?= $img; ?></div>
                         </div>
                     <?php } // END foreach ?>
                 </div>
