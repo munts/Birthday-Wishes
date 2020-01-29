@@ -10,7 +10,7 @@ $dataTitleTeam = get_post_meta($post->ID, '_one_front_team_title', true);
 $team_bg = get_post_meta($post->ID, '_one_front_team_background_image', true);
 ?>
 
-<section id="team" class="row" data-title="<?= $dataTitleTeam; ?>" style="background-image: url('<?= $team_bg; ?>');">
+<section id="gallery" class="row" data-title="<?= $dataTitleTeam; ?>" style="background-image: url('<?= $team_bg; ?>');">
     <div class="col-xs-12 team_div">
         <div class="row">
             <div class="col-xs-10 col-xs-push-1">
