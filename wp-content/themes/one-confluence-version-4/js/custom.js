@@ -188,7 +188,7 @@
     );
 
 
-    var makeTitleblockRelative = new Waypoint({
+    /*var makeTitleblockRelative = new Waypoint({
 
             element: document.getElementById('solutions'),
             handler: function(direction) {
@@ -202,9 +202,9 @@
                     });
                 }
             },
-            offset: 'bottom-in-view' /*-270*/
+            offset: 'bottom-in-view' 
         }
-    );
+    );*/
 
     var fixTitleblockBottom = new Waypoint({
 
