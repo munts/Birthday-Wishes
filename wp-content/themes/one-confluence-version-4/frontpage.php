@@ -154,18 +154,6 @@ if (function_exists('one_get_option')) {
     get_template_part('templates/team-fluid');
    ?>
 
-
-
-    <section id="upload" class="row" data-title="<?= $topTitleFive; ?>">
-        <div class="col-sm-5 col-md-4 col-lg-2 col-lg-push-3 text-overlay-left clearfix">
-          <div class="featured-content-left"><h2><?= $topTitleFive; ?></h2><?= $descriptionFive; ?></div>
-        </div>
-        <div class="col-sm-7 col-md-7 col-lg-5 col-lg-push-3">
-            <img src="<?= $imageFive; ?>" class="img-responsive">
-        </div>
-
-    </section>
-
     <section id="titleblock" class="row titleblocks-fixed">
         <div id="titleblock-inner" class="container">
             <div class="row">
