@@ -386,17 +386,17 @@
 
     var teamWaypoint = new Waypoint({
         offset: $(window).height()/2,
-        element: document.getElementById('team'),
+        element: document.getElementById('gallery'),
         handler: function(direction) {
-            $('.js-tag').html($('#team').data('title'));
+            $('.js-tag').html($('#gallery').data('title'));
         }
     });
 
     var teamWaypointUp = new Waypoint({
-            element: document.getElementById('team'),
+            element: document.getElementById('gallery'),
             handler: function(direction) {
                 if (direction === 'up') {
-                    $('.js-tag').html($('#team').data('title'));
+                    $('.js-tag').html($('#gallery').data('title'));
                 }
             },
             offset: '5%'
