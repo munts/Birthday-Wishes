@@ -118,6 +118,7 @@ if (function_exists('one_get_option')) {
 
     <section id="the-bean" class="row" data-title="<?= $topTitleOne; ?>">
             <div class="col-xs-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center" style="padding:0;">
+            <h1><?= $topTitleOne; ?></h1>
                 <img style="width:80%;" class="img-responsive" id="floorplan" src="<?= $imageOne; ?>">
             </div>
     </section>
