@@ -155,6 +155,32 @@ if (function_exists('one_get_option')) {
     get_template_part('templates/team-fluid');
    ?>
 
-    
+    <section id="titleblock" class="row titleblocks-fixed">
+        <div id="titleblock-inner" class="container">
+            <div class="row">
+                <div class="hidden-xs col-sm-4 col-md-3 reduced-padding">
+                    <div id="left" class="block-margin left-block block-wrap">
+                        <div id="what"><span><?= $titleBlockOne; ?><br><?= $titleBlockTwo; ?><br><?= $titleBlockThree; ?></span></div>
+                    </div>
+                </div>
+                <div class="hidden-xs2 col-sm-4 col-md-6 reduced-padding">
+                    <div class="block-margin middle-block block-wrap">
+                        <div class="buildingwith">
+                            <div id="tagger" class="tagline">
+                                <div class="building-with"><?= $middleContainerTopTitle; ?></div>
+                                <div class="js-tag">Love</div></div>
+                            <div class="since1994"><strong><?= $middleContainerBottomTitle; ?></strong></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-xs col-sm-4 col-md-3 reduced-padding">
+                    <div class="block-margin right-block block-wrap">
+                        <div id="logo2" style="background-image: url('<?= $titleBlockLogo; ?>');">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 <?php get_footer(); ?>
