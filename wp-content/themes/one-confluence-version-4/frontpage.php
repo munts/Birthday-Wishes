@@ -182,5 +182,6 @@ if (function_exists('one_get_option')) {
             </div>
         </div>
     </section>
+
 </div>
 <?php get_footer(); ?>
